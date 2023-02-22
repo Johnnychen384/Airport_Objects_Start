@@ -1,7 +1,7 @@
 const Airport = require('./Airport')
 const Plane = require('./Plane')
-const Bag = require('./Bag')
-const Person = require('./Person')
+const {Bag} = require('./Bag')
+const {Person} = require('./Person')
 
 
 describe('Airport object', () => {
