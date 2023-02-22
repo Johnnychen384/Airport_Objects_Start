@@ -1,5 +1,5 @@
-const Bag = require('./Bag')
-const Person = require('./Person')
+const {Bag} = require('./Bag')
+const {Person} = require('./Person')
 
 describe('Person class', () => {
     const newBag = new Bag(25)
